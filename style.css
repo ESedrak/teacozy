@@ -1,0 +1,93 @@
+/* global style */
+body {
+  color: seashell;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  font-family: Halvetica;
+}
+
+/* navbar */
+nav {
+  line-height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 1250px;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+  top: -2px;
+  left: -5px;
+}
+
+nav h1 {
+  display: inline-block;
+  font-size: 50px;
+  font-family: cursive;
+  position: relative;
+  top: -20px;
+  line-height: 10px;
+}
+
+nav a {
+  float: right;
+  color: seashell;
+  padding: 10px;
+}
+
+/* background image */
+.background-img {
+  opacity: 0.6;
+  height: 700px;
+  width: 1200px;
+}
+
+/* message on top of background image */
+
+.header-message {
+  text-align: center;
+  position: relative;
+  top: -470px;
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+}
+
+/* main content*/
+main {
+  max-width: 1000px;
+}
+
+.main-header {
+  text-align: center;
+  width: 1000px;
+  position: relative;
+  top: -100px;
+}
+
+main figure {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+main img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.main-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: space-around;
+}
+
+/* Locations */
+.second-page {
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
+.second-page:active {
+  color: yellow;
+}
